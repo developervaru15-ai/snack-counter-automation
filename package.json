@@ -1,0 +1,15 @@
+{
+  "name": "snack-counter-automation",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p .",
+    "demo": "tsc -p . && node dist/demo/demo.js",
+    "test": "tsc -p . && node --test \"dist/tests/*.test.js\""
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": ">=5.6.0"
+  }
+}
